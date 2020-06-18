@@ -1245,3 +1245,43 @@ main {
   font-size: 14px;
   letter-spacing: 0.2rem;
 }
+.Button {
+  line-height: 3rem;
+  border: 2px solid var(--orange);
+  background-color: transparent;
+  display: inline-block;
+  color: var(--orange);
+  text-decoration: none;
+  padding: 0 2.5em;
+  font-size: 1.4rem;
+  border-radius: 28px;
+  transform: scale(1);
+  transition: transform 250ms ease-out;
+  font-family: "InterstateMono", sans-serif;
+  transition: 300ms ease-out;
+}
+
+.Button:hover,
+.Button:focus {
+  background: transparent;
+  color: white;
+  background-color: var(--orange);
+}
+
+.Button--Alt {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.Button--Alt:hover {
+  background: var(--green);
+}
+
+.Button-action {
+  background: var(--orange);
+  color: var(--white);
+}
+.Button-action:hover {
+  background: var(--white);
+  color: var(--orange);
+}
