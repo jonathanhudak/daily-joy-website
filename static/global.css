@@ -142,10 +142,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   color: var(--orange);
-
-  @media (min-width: 1000px) {
-    font-size: 4rem;
-  }
 }
 
 .h2 {
@@ -169,6 +165,12 @@ body {
 }
 .h6 {
   font-size: 0.75rem;
+}
+
+@media (min-width: 1000px) {
+  .h1 {
+    font-size: 4rem;
+  }
 }
 
 .font-family-inherit {

@@ -2,11 +2,16 @@
   import MixYourMagic from "../components/MixYourMagic.svelte";
   import StayBalanced from "../components/StayBalanced.svelte";
   import NewRitual from "../components/NewRitual.svelte";
+  import WhatOthersSay from "../components/WhatOthersSay.svelte";
 </script>
 
 <style>
   .Hero-Copy {
     font-size: 24px;
+  }
+
+  .h1 {
+    line-height: 1.2;
   }
 
   .Hero {
@@ -284,3 +289,5 @@
   <StayBalanced />
   <NewRitual />
 </div>
+
+<WhatOthersSay />
