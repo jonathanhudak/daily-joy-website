@@ -27,11 +27,31 @@
     display: flex;
     width: 100%;
   }
+  button:focus {
+    outline: none;
+  }
+
+  button:focus .Expando-Icon {
+    color: var(--orange);
+    background: white;
+  }
+
+  .Expando-Icon {
+    color: var(--tan);
+    transform: rotate(0deg);
+    transition: transform 100ms ease-out;
+    display: block;
+    position: relative;
+  }
+
+  .openIcon {
+    transform: rotate(-45deg);
+  }
 </style>
 
-<button on:click={handleToggleClick} class="h1 caps">
+<button on:click={handleToggleClick} class="h1 caps button">
   <span>{title}</span>
-  <span class="Expando-Icon">+</span>
+  <span class="Expando-Icon" class:openIcon={!closed}>+</span>
 </button>
 
 <div class:closed>
