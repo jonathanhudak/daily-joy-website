@@ -2,6 +2,7 @@
   --white: #fdfdfb;
   --pink: #f4adba;
   --orange: #ed6e24;
+  --sand: #f1ede4;
   --green: #7e8c45;
   --tan: #dbaf81;
   --grey: #8b8a7d;
@@ -1234,6 +1235,10 @@ main {
 
 .bg-beige {
   background-color: var(--beige);
+}
+
+.bg-sand {
+  background-color: var(--sand);
 }
 
 .bg-orange {

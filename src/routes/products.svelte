@@ -4,6 +4,7 @@
   import Highlights from "../components/TurmericExtract/Highlights.svelte";
   import Benefits from "../components/TurmericExtract/Benefits.svelte";
   import WhatOthersSay from "../components/WhatOthersSay.svelte";
+  import DoItDaily from "../components/DoItDaily.svelte";
 </script>
 
 <svelte:head>
@@ -15,3 +16,4 @@
 <Highlights />
 <Benefits />
 <WhatOthersSay />
+<DoItDaily />
