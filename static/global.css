@@ -15,8 +15,10 @@
   --text-important: #8c8a7d;
   --golden-ratio-small: 38.2%;
   --golden-ratio-large: 61.8%;
+}
 
-  @media (min-width: 1680px) {
+@media (min-width: 1680px) {
+  :root {
     --max-content-width: 1200px;
   }
 }

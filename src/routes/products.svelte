@@ -1,7 +1,17 @@
+<script>
+  import Hero from "../components/TurmericExtract/Hero.svelte";
+  import Buy from "../components/TurmericExtract/Buy.svelte";
+  import Highlights from "../components/TurmericExtract/Highlights.svelte";
+  import Benefits from "../components/TurmericExtract/Benefits.svelte";
+  import WhatOthersSay from "../components/WhatOthersSay.svelte";
+</script>
+
 <svelte:head>
-	<title>About</title>
+  <title>Products</title>
 </svelte:head>
 
-<h1>About this site</h1>
-
-<p>This is the 'about' page. There's not much here.</p>
+<Hero />
+<Buy />
+<Highlights />
+<Benefits />
+<WhatOthersSay />
