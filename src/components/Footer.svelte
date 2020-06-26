@@ -4,6 +4,10 @@
     color: var(--white);
   }
 
+  a {
+    color: var(--white);
+  }
+
   .SiteFooter-container {
     max-width: var(--max-content-width);
     margin: auto;
@@ -12,6 +16,7 @@
   .Emblem-alt {
     width: 70px;
     display: block;
+    margin-bottom: 4rem;
   }
 
   .Emblem-alt path {
@@ -35,6 +40,50 @@
   }
   .Social svg path {
     fill: var(--white);
+  }
+
+  .EmailSignup-input {
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+  }
+
+  .EmailSignup-Button {
+    border-color: var(--white);
+    color: var(--white);
+  }
+
+  .EmailSignup-input,
+  .EmailSignup-Button {
+    width: 100%;
+  }
+
+  @media (min-width: 740px) {
+    .EmailSignup-input,
+    .EmailSignup-Button {
+      width: auto;
+    }
+
+    .EmailSignup-form {
+      display: grid;
+      grid-template-columns: minmax(auto, 400px) auto;
+      column-gap: 1rem;
+    }
+  }
+
+  .Legal {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    padding-top: 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    .Legal {
+      display: grid;
+      grid-template-columns: repeat(3, max-content);
+      column-gap: 2rem;
+    }
   }
 </style>
 
@@ -107,7 +156,7 @@
 
     <div id="mc_embed_signup" class="EmailSignup">
       <div>
-        <h3 class="font-alt caps color-white">Join our mailing list</h3>
+        <h3 class="font-alt caps color-white mb2">Join our mailing list</h3>
         <form
           action="https://gmail.us20.list-manage.com/subscribe/post?u=feefd94d57044141f703a9216&amp;id=9fd6cab219"
           method="post"
@@ -150,7 +199,13 @@
         <p>Sign up for monthly updates from our Founders.</p>
       </div>
 
-      <p class="font-alt body-3">© 2020 DAILY JOY, SPC ALL RIGHTS RESERVED</p>
+      <div class="Legal">
+        <strong class="font-alt body-3">
+          © 2020 DAILY JOY, SPC ALL RIGHTS RESERVED
+        </strong>
+        <a class="font-alt body-3 caps" href=".">Privacy policy</a>
+        <a class="font-alt body-3 caps" href=".">Terms & Conditions</a>
+      </div>
     </div>
   </div>
 </footer>

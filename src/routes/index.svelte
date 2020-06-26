@@ -63,6 +63,7 @@
   .Hero-A .Hero-Content {
     max-width: var(--max-content-width);
     margin: auto;
+    padding: 0 2rem;
   }
 
   .Hero-A .Hero-Copy {

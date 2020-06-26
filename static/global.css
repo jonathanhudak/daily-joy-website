@@ -186,8 +186,10 @@ body {
   text-decoration: none;
 }
 
-.lead {
-  font-size: 1.25rem;
+@media (min-width: 500px) {
+  .lead {
+    font-size: 1.25rem;
+  }
 }
 
 .bold {

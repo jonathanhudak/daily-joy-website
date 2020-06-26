@@ -4,14 +4,22 @@
   }
   .Story-Content {
     width: 100%;
-    padding-bottom: 4rem;
     max-width: var(--max-content-width);
+    padding: 4rem 2rem;
+  }
+
+  @media (min-width: 500px) {
+    .Story-Content {
+      padding-top: 0;
+    }
   }
 
   @media (min-width: 1024px) {
     .Story-Content {
       display: flex;
       padding-bottom: 10rem;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 

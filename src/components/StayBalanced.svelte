@@ -2,11 +2,17 @@
   .Story-Content {
     max-width: var(--max-content-width);
     margin: auto;
+    padding: 0 2rem;
+    display: flex;
   }
 
-  @media (min-width: 500px) {
+  .Story-Copy {
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 1024) {
     .Story-Content {
-      display: flex;
+      width: 100%;
     }
   }
 
@@ -26,7 +32,6 @@
     width: 100px;
     height: auto;
     text-align: center;
-    transform: translateY(-4rem);
     margin-left: auto;
   }
 
