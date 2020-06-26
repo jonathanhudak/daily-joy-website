@@ -6,9 +6,11 @@
   .SiteHeader-container {
     max-width: var(--max-content-width);
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px auto;
     justify-content: space-between;
-    padding-top: 2rem;
+    column-gap: 1rem;
+    padding: 2rem 2rem 0;
   }
 
   @media (min-width: 1024px) {
@@ -19,8 +21,13 @@
 
   .MainNavigation {
     display: grid;
-    grid-template-columns: repeat(3, auto);
     column-gap: 2rem;
+  }
+
+  @media (min-width: 740px) {
+    .MainNavigation {
+      grid-template-columns: repeat(3, auto);
+    }
   }
 
   a {
@@ -41,6 +48,7 @@
   .Emblem {
     display: block;
     width: 100px;
+    flex: 1;
   }
 
   .Emblem path {
