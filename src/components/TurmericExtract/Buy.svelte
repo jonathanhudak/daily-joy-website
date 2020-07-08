@@ -1,3 +1,65 @@
+<script>
+  import { onMount } from "svelte";
+
+  let client, ui, checkout_url;
+
+  let quantity = 1;
+
+  async function fetchCheckoutLink() {
+    const options = {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Shopify-Storefront-Access-Token": "27a871ff2ba2cab5081bfa0a9805b92c"
+      },
+      body: JSON.stringify({
+        query: `
+          mutation {
+            checkoutCreate(input: {
+              lineItems: [{ variantId: "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC8zNDk4NTE1OTQ5MTc0OA==", quantity: ${quantity} }]
+            }) {
+              checkout {
+                id
+                webUrl,
+                lineItems(first: 5) {
+                  edges {
+                    node {
+                      title
+                      quantity
+                    }
+                  }
+                }
+              }
+            }
+          }
+        `
+      })
+    };
+
+    return fetch(
+      `https://daily-joy-health.myshopify.com/api/2019-07/graphql.json`,
+      options
+    )
+      .then(res => res.json())
+      .then(
+        ({ data }) =>
+          data && data.checkoutCreate && data.checkoutCreate.checkout.webUrl
+      );
+  }
+
+  function handleClickBuyOnce(e) {
+    e.preventDefault();
+
+    fetchCheckoutLink().then(url => {
+      window.location.href = url;
+    });
+  }
+
+  onMount(async () => {
+    checkout_url = await fetchCheckoutLink();
+  });
+</script>
+
 <style>
   .ProductDetails {
     width: 100%;
@@ -36,9 +98,22 @@
     max-height: 80vh;
     width: auto;
   }
+
+  input[type="number"] {
+    width: 50px;
+  }
+
+  .quantity {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-column-gap: 1rem;
+  }
 </style>
 
 <section class="bg-white overflow-x-hidden">
+
+  <div id="product" />
+  <div id="product-subscription" />
   <div class="ProductDetails max-width-section mx-auto relative">
     <div class="ProductDetails-images">
       <img
@@ -59,11 +134,20 @@
         artificial—just your best you.
       </p>
       <div class="my2">
+        <div class="py2 quantity">
+          <label for="quantity">Quantity</label>
+          <input type="number" bind:value={quantity} id="quantity" />
+        </div>
         <a
           class="Button Button-action"
-          href="https://checkout.square.site/pay/af113ddce80945a894a24b37e239fd75">
+          href="https://daily-joy-health.myshopify.com/cart/35022008844452:1?channel=buy_button">
           Subscribe now
         </a>
+        <div class="py1">
+          <a on:click={handleClickBuyOnce} href={checkout_url}>
+            or try a one time order
+          </a>
+        </div>
       </div>
     </div>
 
