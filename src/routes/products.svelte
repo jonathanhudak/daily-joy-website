@@ -9,7 +9,18 @@
 
 <svelte:head>
   <title>Products</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.css" />
+  <script src="https://cdn.snipcart.com/themes/v3.0.17/default/snipcart.js">
+
+  </script>
 </svelte:head>
+
+<div
+  id="snipcart"
+  data-api-key="NTcyNGUzNmEtODgzNC00YjExLTgzZWQtM2E1Y2M4NWM2NDYwNjM3Mjk5NTEzNjAzMTMyMjA0"
+  hidden />
 
 <Hero />
 <Buy />
