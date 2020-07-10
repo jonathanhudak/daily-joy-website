@@ -87,19 +87,20 @@
           data-item-url="/products"
           data-item-price="65.00"
           data-item-payment-interval="Month"
-          data-item-payment-interval-count="1">
+          data-item-payment-interval-count="1"
+          data-item-shippable="true">
           Subscribe now!
         </button>
         <button
           class="snipcart-add-item"
-          data-item-id="turmeric-extract-"
+          data-item-id="turmeric-extract"
           data-item-price="65.00"
           data-item-quantity={quantity}
           data-item-url="/products"
           data-item-description="Each box contains 30 stick packs. Daily Joy’s
           powerful curcumin extract helps your body find balance and reduce
           inflammation. Nothing artificial—just your best you."
-          data-item-shippable
+          data-item-shippable="true"
           data-item-name="Turmeric Extract">
           Add to cart
         </button>
