@@ -199,6 +199,14 @@
         <p>Sign up for monthly updates from our Founders.</p>
       </div>
 
+      <nav>
+        <a href="#noop" class="snipcart-user-profile">User profile</a>
+        <a href="#noop" class="snipcart-user-profile">
+          <span class="snipcart-user-email">Login</span>
+        </a>
+        <a href="#noop" class="snipcart-user-logout">Logout</a>
+      </nav>
+
       <div class="Legal">
         <strong class="font-alt body-3">
           © 2020 DAILY JOY, SPC ALL RIGHTS RESERVED

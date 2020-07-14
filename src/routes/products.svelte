@@ -16,16 +16,6 @@
     crossorigin="anonymous">
 
   </script>
-  <script
-    src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
-    data-api-key="NTcyNGUzNmEtODgzNC00YjExLTgzZWQtM2E1Y2M4NWM2NDYwNjM3Mjk5NTEzNjAzMTMyMjA0"
-    id="snipcart">
-
-  </script>
-  <link
-    href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"
-    rel="stylesheet"
-    type="text/css" />
 </svelte:head>
 
 <Hero />
