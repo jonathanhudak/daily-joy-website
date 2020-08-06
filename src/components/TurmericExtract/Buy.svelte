@@ -1,5 +1,11 @@
 <script>
+  import Carousel from "@beyonk/svelte-carousel";
   let quantity = 1;
+  let images = [
+    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" },
+    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" },
+    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" }
+  ];
 </script>
 
 <style>
@@ -30,16 +36,11 @@
     top: -83px;
   }
 
-  @media (min-width: 1024px) {
-    .ProductDetails-images {
-      padding-right: 4rem;
-    }
-  }
-
+  /* 
   .ProductDetails .current-image {
     max-height: 80vh;
     width: auto;
-  }
+  } */
 
   input[type="number"] {
     width: 50px;
@@ -50,19 +51,43 @@
     grid-template-columns: min-content min-content;
     grid-column-gap: 1rem;
   }
+
+  .ImageGallery {
+    width: 300px;
+  }
+
+  @media (min-width: 1024px) {
+    .ImageGallery {
+      padding-right: 4rem;
+    }
+  }
+
+  .slide-content {
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+
+  .ImageGallery img {
+    max-width: 100%;
+    height: auto;
+  }
 </style>
 
 <section class="bg-white overflow-x-hidden">
 
   <div id="product" />
   <div id="product-subscription" />
+
   <div class="ProductDetails max-width-section mx-auto relative">
-    <div class="ProductDetails-images">
-      <img
-        src="../images/product-detail@2x.png"
-        class="current-image"
-        alt="Box of Daily Joy Turmeric Extract with a stick pack leaning against
-        it" />
+    <div class="ImageGallery">
+      <Carousel perPage={1}>
+        {#each images as image, i}
+          <div class="slide-content">
+            <img src={image.path} alt={image.alt} />
+          </div>
+        {/each}
+      </Carousel>
     </div>
     <div class="ProductDetails-description px2">
       <h2 class="caps font-alt m0 mb3 sm-caps">Power powder</h2>
