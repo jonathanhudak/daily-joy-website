@@ -1,22 +1,30 @@
 <script>
   import Carousel from "@beyonk/svelte-carousel";
+  let carousel;
   let quantity = 1;
   let images = [
     { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" },
-    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" },
-    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" }
+    { path: "images/turmeric-gallery/box-front.png", alt: "box" },
+    { path: "images/turmeric-gallery/box-back.png", alt: "box" },
   ];
+  let currentSlide = 0;
+
+  function handleCarouselChange(event) {
+    currentSlide = event.detail.currentSlide;
+  }
 </script>
 
 <style>
   .ProductDetails {
     width: 100%;
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 740px) {
     .ProductDetails {
-      display: flex;
+      display: grid;
       padding: 6rem 0;
       justify-content: space-between;
+      grid-template-columns: min-content auto;
+      grid-gap: 2rem;
     }
   }
 
@@ -56,21 +64,23 @@
     width: 300px;
   }
 
-  @media (min-width: 1024px) {
-    .ImageGallery {
-      padding-right: 4rem;
-    }
-  }
-
   .slide-content {
     width: 300px;
     height: 300px;
     position: relative;
   }
 
-  .ImageGallery img {
+  .ImageGallery .slide-content img {
     max-width: 100%;
     height: auto;
+  }
+
+  .imageThumbnail {
+    border: 1px solid transparent;
+  }
+
+  .activeSlideThumb {
+    border-color: var(--orange);
   }
 </style>
 
@@ -81,13 +91,27 @@
 
   <div class="ProductDetails max-width-section mx-auto relative">
     <div class="ImageGallery">
-      <Carousel perPage={1}>
+      <Carousel
+        perPage={1}
+        bind:this={carousel}
+        on:change={handleCarouselChange}>
         {#each images as image, i}
           <div class="slide-content">
             <img src={image.path} alt={image.alt} />
           </div>
         {/each}
       </Carousel>
+      {#each images as image, i}
+        <img
+          class="imageThumbnail"
+          class:activeSlideThumb={currentSlide === i}
+          src={image.path}
+          alt={image.alt}
+          height="70px"
+          on:click={() => {
+            carousel.go(i);
+          }} />
+      {/each}
     </div>
     <div class="ProductDetails-description px2">
       <h2 class="caps font-alt m0 mb3 sm-caps">Power powder</h2>
