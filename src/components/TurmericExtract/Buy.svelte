@@ -3,9 +3,9 @@
   let carousel;
   let quantity = 1;
   let images = [
-    { path: "images/turmeric-gallery/box-and-stickpack.png", alt: "box" },
-    { path: "images/turmeric-gallery/box-front.png", alt: "box" },
-    { path: "images/turmeric-gallery/box-back.png", alt: "box" },
+    { path: "images/turmeric-gallery/main@2x.png", alt: "box" },
+    { path: "images/turmeric-gallery/box-front@2x.png", alt: "box" },
+    { path: "images/turmeric-gallery/box-back@2x.png", alt: "box" },
   ];
   let currentSlide = 0;
 
@@ -44,11 +44,15 @@
     top: -83px;
   }
 
-  /* 
-  .ProductDetails .current-image {
-    max-height: 80vh;
-    width: auto;
-  } */
+  .single-purchase {
+    color: var(--orange);
+    text-decoration: underline;
+    font-size: 1.25rem;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
 
   input[type="number"] {
     width: 50px;
@@ -64,9 +68,13 @@
     width: 300px;
   }
 
+  @media (min-width: 1000px) {
+    .ImageGallery {
+      width: 600px;
+    }
+  }
+
   .slide-content {
-    width: 300px;
-    height: 300px;
     position: relative;
   }
 
@@ -115,9 +123,12 @@
     </div>
     <div class="ProductDetails-description px2">
       <h2 class="caps font-alt m0 mb3 sm-caps">Power powder</h2>
-      <p class="caps h1 m0">
-        <span class="nowrap">Turmeric Extract</span>
+      <p class="caps h1 m0 nowrap">Turmeric Extract</p>
+
+      <p class="color-orange lead">
+        <strong class="regular">Subscription: $60</strong>
         <br />
+        <strong class="regular">One time order: $65</strong>
       </p>
       <p class="line-height-4 lead">
         Each box contains 30 stick packs. Daily Joy’s powerful curcumin extract
@@ -129,19 +140,22 @@
           <label for="quantity">Quantity</label>
           <input type="number" bind:value={quantity} id="quantity" />
         </div>
+        <div class="my2">
+          <button
+            class="snipcart-add-item Button Button-action"
+            data-item-name="Turmeric Extract Subscription"
+            data-item-id="turmeric-extract-subscription"
+            data-item-url="/products"
+            data-item-price="65.00"
+            data-item-payment-interval="Month"
+            data-item-payment-interval-count="1"
+            data-item-shippable="true">
+            Subscribe now!
+          </button>
+        </div>
+
         <button
-          class="snipcart-add-item Button"
-          data-item-name="Turmeric Extract Subscription"
-          data-item-id="turmeric-extract-subscription"
-          data-item-url="/products"
-          data-item-price="65.00"
-          data-item-payment-interval="Month"
-          data-item-payment-interval-count="1"
-          data-item-shippable="true">
-          Subscribe now!
-        </button>
-        <button
-          class="snipcart-add-item"
+          class="snipcart-add-item single-purchase"
           data-item-id="turmeric-extract"
           data-item-price="65.00"
           data-item-quantity={quantity}
@@ -151,7 +165,7 @@
           inflammation. Nothing artificial—just your best you."
           data-item-shippable="true"
           data-item-name="Turmeric Extract">
-          Add to cart
+          or try a one time order
         </button>
       </div>
     </div>

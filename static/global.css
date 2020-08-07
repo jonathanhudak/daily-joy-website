@@ -191,6 +191,10 @@ body {
   }
 }
 
+.color-orange {
+  color: var(--orange);
+}
+
 .bold {
   font-weight: bold;
   font-weight: bold;
