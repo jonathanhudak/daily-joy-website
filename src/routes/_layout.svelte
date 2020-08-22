@@ -1,8 +1,13 @@
+<style>
+  main {
+    width: 100vw;
+    overflow: hidden;
+  }
+</style>
+
 <script>
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
-
-  export let segment;
 </script>
 
 <svelte:head>
@@ -22,23 +27,26 @@
   <link
     href="http://localhost:3006/themes/base/snipcart.css"
     rel="stylesheet"
-    type="text/css" />
+    type="text/css"
+  />
 
   {#if process.env.NODE_ENV === 'development'}
     <link
       href="http://localhost:3006/themes/base/snipcart.css"
       rel="stylesheet"
-      type="text/css" />
+      type="text/css"
+    />
   {:else}
     <link
       href="https://daily-joy-health.s3-us-west-2.amazonaws.com/snipcart-theme/snipcart.min.css"
       rel="stylesheet"
-      type="text/css" />
+      type="text/css"
+    />
   {/if}
 
 </svelte:head>
 
-<Nav {segment} />
+<Nav segment="segment" />
 
 <main>
   <slot />

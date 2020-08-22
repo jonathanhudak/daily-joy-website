@@ -17,13 +17,14 @@
 <style>
   .ProductDetails {
     width: 100%;
+    padding-bottom: 2rem;
   }
   @media (min-width: 740px) {
     .ProductDetails {
       display: grid;
       padding: 6rem 0;
       justify-content: space-between;
-      grid-template-columns: min-content auto;
+      grid-template-columns: 50% auto;
       grid-gap: 2rem;
     }
   }
@@ -65,12 +66,13 @@
   }
 
   .ImageGallery {
-    width: 300px;
+    max-width: 300px;
+    margin: 0 1rem;
   }
 
   @media (min-width: 1000px) {
     .ImageGallery {
-      width: 600px;
+      max-width: 600px;
     }
   }
 

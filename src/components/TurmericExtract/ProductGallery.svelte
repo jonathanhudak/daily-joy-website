@@ -1,3 +1,11 @@
+<style>
+  .swiper-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+  }
+</style>
+
 <script>
   import Swiper from "swiper";
 
@@ -8,7 +16,7 @@
     freeMode: true,
     loopedSlides: 5, //looped slides should be the same
     watchSlidesVisibility: true,
-    watchSlidesProgress: true
+    watchSlidesProgress: true,
   });
   var galleryTop = new Swiper(".gallery-top", {
     spaceBetween: 10,
@@ -16,91 +24,103 @@
     loopedSlides: 5, //looped slides should be the same
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+      prevEl: ".swiper-button-prev",
     },
     thumbs: {
-      swiper: galleryThumbs
-    }
+      swiper: galleryThumbs,
+    },
   });
 </script>
-
-<style>
-  .swiper-container {
-    position: relative;
-    width: 600px;
-    height: 300px;
-  }
-</style>
 
 <!-- Initialize Swiper -->
 <div class="swiper-container gallery-top">
   <div class="swiper-wrapper">
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-6.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-6.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-7.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-7.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-8.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-8.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-9.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-9.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-10.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-10.jpg)"
+    ></div>
   </div>
   <!-- Add Arrows -->
-  <div class="swiper-button-next swiper-button-white" />
-  <div class="swiper-button-prev swiper-button-white" />
+  <div class="swiper-button-next swiper-button-white"></div>
+  <div class="swiper-button-prev swiper-button-white"></div>
 </div>
 <div class="swiper-container gallery-thumbs">
   <div class="swiper-wrapper">
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-6.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-6.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-7.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-7.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-8.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-8.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-9.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-9.jpg)"
+    ></div>
     <div
       class="swiper-slide"
-      style="background-image:url(https://swiperjs.com/demos/images/nature-10.jpg)" />
+      style="background-image:url(https://swiperjs.com/demos/images/nature-10.jpg)"
+    ></div>
   </div>
 </div>

@@ -1,39 +1,69 @@
-<script>
-  import Step1 from "./graphics/step1.svelte";
-  import Step2 from "./graphics/step2.svelte";
-  import Step3 from "./graphics/step3.svelte";
-</script>
-
 <style>
   section {
-    padding: 6rem 0;
+    padding: 6rem 1rem;
   }
 
   ol {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  ol li {
+    flex-basis: 50%;
   }
 
   .graphic {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     position: relative;
   }
 
   .step {
     display: flex;
-    padding-top: 2rem;
-    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
   }
 
   .step .h1 {
     margin-right: 1rem;
     line-height: 1.2;
   }
+
+  @media (min-width: 500px) {
+    ol {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+
+    .graphic {
+      height: 150px;
+      width: 150px;
+    }
+
+    .step {
+      padding-top: 2rem;
+      padding-right: 3rem;
+    }
+  }
+
+  @media (min-width: 1024) {
+    .graphic {
+      height: 200px;
+      width: 200px;
+    }
+  }
 </style>
+
+<script>
+  import Step1 from "./graphics/step1.svelte";
+  import Step2 from "./graphics/step2.svelte";
+  import Step3 from "./graphics/step3.svelte";
+</script>
 
 <section class="bg-sand">
   <div class="max-width-section mx-auto relative">
