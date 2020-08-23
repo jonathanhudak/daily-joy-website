@@ -141,7 +141,7 @@ body {
 /*! Basscss | http://basscss.com | MIT License */
 
 .h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--orange);
 }
@@ -171,7 +171,7 @@ body {
 
 @media (min-width: 1000px) {
   .h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
