@@ -1,11 +1,9 @@
 <script>
+  import { onMount } from "svelte";
   import { fly, fade, slide } from "svelte/transition";
-  const words = ["inflammation.", "discomfort.", "fog."];
+
+  export let words;
   let currentWord = 0;
-  function nextWord() {
-    currentWord = currentWord === words.length - 1 ? 0 : currentWord + 1;
-  }
-  setInterval(nextWord, 3000);
 
   function typewriter(node, { speed = 50 }) {
     const valid =
@@ -25,14 +23,21 @@
       },
     };
   }
+
+  onMount(async () => {
+    function nextWord() {
+      currentWord = currentWord === words.length - 1 ? 0 : currentWord + 1;
+    }
+    setInterval(nextWord, 3000);
+  });
 </script>
 
 <span>
-
-  {#each words as word, index}
-    {#if index === currentWord}
-      <span in:typewriter="{{ speed: 70 }}">{word}</span>
-    {/if}
-  {/each}
-
+  {#if words}
+    {#each words as word, index}
+      {#if index === currentWord}
+        <span in:typewriter="{{ speed: 70 }}">{word}</span>
+      {/if}
+    {/each}
+  {/if}
 </span>

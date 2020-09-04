@@ -52,4 +52,4 @@
   <slot />
 </main>
 
-<Footer />
+<Footer segment="segment" />

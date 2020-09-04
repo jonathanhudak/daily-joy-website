@@ -1,6 +1,12 @@
 <style>
   .Hero-Copy {
-    font-size: 24px;
+    font-size: 1rem;
+  }
+
+  @media (min-width: 700px) {
+    .Hero-Copy {
+      font-size: 1.25rem;
+    }
   }
 
   .h1 {
@@ -49,14 +55,14 @@
 
   @media (min-width: 1280px) {
     .Hero-A {
-      background-size: 900px auto;
+      background-size: 750 auto;
     }
   }
 
   .Hero-A .Hero-Content {
     max-width: var(--max-content-width);
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .Hero-A .Hero-Copy {
@@ -114,14 +120,14 @@
 <div class="Hero Hero-A">
   <div class="Hero-Content">
     <div class="Hero-Copy">
-      <p class="caps font-alt m0 mb3 line-height-4">
+      <p class="caps font-alt alt-heading m0 mb3 line-height-4">
         Ancient wisdom
         <br />
         meets modern science
       </p>
       <p class="caps h1 m0 nowrap">
         Less
-        <TextRotator />
+        <TextRotator words="{['inflammation.', 'discomfort.', 'fog.']}" />
       </p>
       <p class="caps h1 m0">More Joy.</p>
 

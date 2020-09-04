@@ -51,6 +51,10 @@
   }
 </style>
 
+<script>
+  import TextRotator from "../TextRotator.svelte";
+</script>
+
 <section class="max-width-section mx-auto ProductHero">
   <div class="ProductHero-image relative">
     <img
@@ -61,7 +65,10 @@
   <div class="ProductHero-copy">
     <h2 class="caps font-alt m0 mb3 sm-caps">Turmeric Extract</h2>
     <p class="caps h1 m0">
-      <span class="nowrap">Daily Turmeric.</span>
+      <span class="nowrap">
+        Daily
+        <TextRotator words="{['Turmeric.', 'Ginger', 'Mango', 'Papaya']}" />
+      </span>
       <br />
       <span class="nowrap">Daily Balance.</span>
       <br />
