@@ -4,10 +4,6 @@
     color: var(--white);
   }
 
-  a {
-    color: var(--white);
-  }
-
   .SiteFooter-container {
     max-width: var(--max-content-width);
     margin: auto;
@@ -108,6 +104,7 @@
 <script>
   let segment;
   import Logos from "./Logos.svelte";
+  import ProfileLink from "./ProfileLink.svelte";
 </script>
 
 <footer class="SiteFooter bg-orange">
@@ -204,13 +201,13 @@
         >
           Products
         </a>
-        <a
+        <!-- <a
           aria-current="{segment === 'learn' ? 'page' : undefined}"
           href="."
           class="font-alt caps"
         >
           Learn
-        </a>
+        </a> -->
         <a
           aria-current="{segment === 'story' ? 'page' : undefined}"
           href="."
@@ -222,9 +219,9 @@
         <!-- <a href="#noop" class="snipcart-user-profile font-alt caps">
           User profile
         </a> -->
-        <a href="#noop" class="snipcart-user-profile font-alt caps">
-          <span class="snipcart-user-email">Login</span>
-        </a>
+        <ProfileLink />
+
+        <a href="#noop" class="snipcart-user-logout font-alt caps">Logout</a>
         <!-- <a href="#noop" class="snipcart-user-logout font-alt caps">Logout</a> -->
 
         <!-- <a

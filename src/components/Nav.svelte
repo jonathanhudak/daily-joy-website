@@ -26,18 +26,18 @@
     }
   }
 
-  a {
+  .MainNavigation a {
     font-size: 1rem;
     color: var(--grey);
     opacity: 0.65;
   }
 
-  a:hover {
+  .MainNavigation a:hover {
     color: var(--orange);
     opacity: 1;
   }
 
-  a[aria-current] {
+  .MainNavigation a[aria-current] {
     opacity: 1;
   }
 
@@ -54,6 +54,9 @@
 
 <script>
   export let segment;
+  let firstName;
+  import { onMount } from "svelte";
+  import ProfileLink from "./ProfileLink.svelte";
 </script>
 
 <header class="SiteHeader">
@@ -100,20 +103,23 @@
       >
         Products
       </a>
-      <a
+      <!-- <a
         aria-current="{segment === 'learn' ? 'page' : undefined}"
         href="."
         class="font-alt caps"
       >
         Learn
-      </a>
+      </a> -->
+
       <a
-        aria-current="{segment === 'story' ? 'page' : undefined}"
-        href="."
+        aria-current="{segment === 'our-story' ? 'page' : undefined}"
+        href="our-story"
         class="font-alt caps"
       >
         Our story
       </a>
+
+      <ProfileLink />
 
       <!-- <a
         rel="prefetch"

@@ -209,7 +209,7 @@ body {
 }
 
 .sm-caps {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .left-align {
@@ -1257,6 +1257,21 @@ main {
   font-size: 14px;
   letter-spacing: 0.2rem;
 }
+
+.SiteHeader a {
+  color: var(--grey);
+  opacity: 0.65;
+}
+
+.SiteHeader a:hover {
+  color: var(--orange);
+  opacity: 1;
+}
+
+.SiteFooter a {
+  color: var(--white);
+}
+
 .Button {
   line-height: 3rem;
   border: 2px solid var(--orange);
