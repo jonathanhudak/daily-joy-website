@@ -3,13 +3,15 @@
     color: var(--white);
     display: grid;
     padding: 4rem 0;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .ProductQualities-item {
-    padding: 0 1rem;
+    padding: 0 1rem 2rem;
     text-align: center;
+    max-width: 250px;
   }
 
   .ProductQualities-item svg {

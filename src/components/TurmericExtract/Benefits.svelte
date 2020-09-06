@@ -1,13 +1,14 @@
 <style>
   .ProductBenefits-list {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 120px auto;
     grid-gap: 1rem;
   }
 
   @media (min-width: 1024px) {
     .ProductBenefits-list {
       grid-gap: 3rem;
+      grid-template-columns: 200px auto;
     }
   }
 
@@ -17,8 +18,15 @@
   }
 
   .ProductBenefits-icon {
-    height: 140px;
+    height: 100px;
     margin: auto;
+  }
+
+  @media (min-width: 1024px) {
+    .ProductBenefits-icon {
+      height: 140px;
+      margin: auto;
+    }
   }
 
   .ToggleList {
@@ -296,57 +304,21 @@
 
   <div class="ToggleList my4">
     <div class="ToggleList-row">
-      <ToggleSection title="Ingredients">
-        <ul>
-          <li>Curcumin (Tetrahydrocurcumin)</li>
-          <li>Amla Fruit Extract</li>
-          <li>Boswellia Serrata Extract</li>
-          <li>Pterostilbene</li>
-          <li>Probiotic (Bacillus coagulans, MTCC 5856)</li>
-          <li>Organic Ginger Powder</li>
-          <li>Organic Lemon Juice Powder</li>
-          <li>Organic Papaya Juice Powder</li>
-          <li>Mango Juice Powder</li>
-        </ul>
-      </ToggleSection>
-    </div>
-    <div class="ToggleList-row">
-      <ToggleSection title="Benefits">
-        <h3 class="mt1">Metabolism & Energy</h3>
-        <p>
-          Inflammation may cause systemic problems with energy storage and
-          access, including obesity, metabolic syndrome, and diabetes.
-        </p>
-
-        <h3>Cognition & Mood</h3>
-        <p>
-          Inflammation can impact mood and cognition, presenting a range of
-          challenges from depression to dementia or Alzheimer’s disease.
-        </p>
-
-        <h3>Organ & Tissue</h3>
-        <p>
-          Too much inflammation overwhelms cell repair and may invite cell
-          overgrowth contributing to cancers, heart disease, kidney disease, and
-          can impact the vitality of connective tissues and skin.
-        </p>
-
-        <h3>Movement & Recovery</h3>
-        <p>
-          Inflammation contributes to joint pain and muscle strain associated
-          with arthritis, sports recovery, or even chemotherapy or radiation
-          recovery.
-        </p>
-
-      </ToggleSection>
-    </div>
-    <div class="ToggleList-row">
-      <ToggleSection title="How to use" key="how">
-        <p>
-          Adults take 1 to 2 daily. Add to your favorite vessel, pour in 8oz of
-          room temperature water or your favorite beverage, while stirring well.
-          Mix well and enjoy!
-        </p>
+      <ToggleSection title="FAQ">
+        <section class="py2">
+          <h3>What are the ingredients?</h3>
+          <ul>
+            <li>Curcumin (Tetrahydrocurcumin)</li>
+            <li>Amla Fruit Extract</li>
+            <li>Boswellia Serrata Extract</li>
+            <li>Pterostilbene</li>
+            <li>Probiotic (Bacillus coagulans, MTCC 5856)</li>
+            <li>Organic Ginger Powder</li>
+            <li>Organic Lemon Juice Powder</li>
+            <li>Organic Papaya Juice Powder</li>
+            <li>Mango Juice Powder</li>
+          </ul>
+        </section>
       </ToggleSection>
     </div>
   </div>
