@@ -20,7 +20,7 @@
 
 @media (min-width: 1680px) {
   :root {
-    --max-content-width: 1200px;
+    --max-content-width: 1000px;
   }
 }
 

@@ -61,24 +61,23 @@
   <div class="row">
     <div class="person">
       <div class="portrait">
-        <img src="images/gwyneth.png" alt="gwyneth" />
+        <img src="images/testimonials/erik@2x.png" alt="gwyneth" />
       </div>
-      <p class="caps font-alt">GWYNETH PALTROW</p>
+      <p class="caps font-alt">Erik Molano</p>
       <p class="body-2">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
+        Daily Joy gives you the feeling of feeling bright, and energetic inside.
+        Starting the day with a warm glass of ginger and turmeric is now an
+        essential of my self care routine.
       </p>
     </div>
     <div class="person">
       <div class="portrait">
-        <img src="images/jeremy.png" alt="jeremy" />
+        <img src="images/testimonials/lily@2x.png" alt="jeremy" />
       </div>
-      <p class="caps font-alt">Jeramy Lind</p>
+      <p class="caps font-alt">Lily</p>
       <p class="body-2">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
+        Who knew such a small sachet can be packed with so much power. I’m
+        definitely a Daily Joy fan for life!
       </p>
     </div>
     <div class="person">
