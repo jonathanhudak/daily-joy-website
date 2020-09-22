@@ -209,8 +209,8 @@
           Learn
         </a> -->
         <a
-          aria-current="{segment === 'story' ? 'page' : undefined}"
-          href="."
+          aria-current="{segment === 'our-story' ? 'page' : undefined}"
+          href="our-story"
           class="font-alt caps"
         >
           Our story

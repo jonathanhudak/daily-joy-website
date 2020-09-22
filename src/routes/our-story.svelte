@@ -12,7 +12,7 @@
       display: grid;
       justify-content: space-between;
       grid-template-columns: 1fr 1fr;
-      grid-gap: 2rem;
+      grid-gap: 4rem;
     }
   }
 
@@ -37,7 +37,30 @@
       <strong class="h1">Meet Our Founders</strong>
       <div class="hero-content">
         <div>
+          <p class="mt0">
+            We founded Daily Joy with the goal of bringing the most effective
+            anti-inflammatory solutions to everyone. Our mission is to harness
+            Ayurvedic wisdom for modern life with pure and simple formulas that
+            optimize the body's response to challenges and support your body's
+            natural resilience. Our formulas are inspired by the wisdom of our
+            ancestors and our ingredients are supported by scientific data.
+          </p>
+
           <p class="lead">
+            The three pillars at the base of our wellness brand are:
+          </p>
+          <ul>
+            <li>Integrity</li>
+            <li>Transparency</li>
+            <li>Sustainability</li>
+          </ul>
+          <p>
+            We create delicious and nutritious formulas that we can trust and
+            enjoy ourselves, daily.
+          </p>
+        </div>
+        <div>
+          <p class="lead mt0">
             Hi! We are Mike and Jenny, two long time friends with shared love
             for health and wellness.
           </p>
@@ -70,29 +93,7 @@
           </p>
 
         </div>
-        <div>
-          <p>
-            We founded Daily Joy with the goal of bringing the most effective
-            anti-inflammatory solutions to everyone. Our mission is to harness
-            Ayurvedic wisdom for modern life with pure and simple formulas that
-            optimize the body's response to challenges and support your body's
-            natural resilience. Our formulas are inspired by the wisdom of our
-            ancestors and our ingredients are supported by scientific data.
-          </p>
 
-          <p class="lead">
-            The three pillars at the base of our wellness brand are:
-          </p>
-          <ul>
-            <li>Integrity</li>
-            <li>Transparency</li>
-            <li>Sustainability</li>
-          </ul>
-          <p>
-            We create delicious and nutritious formulas that we can trust and
-            enjoy ourselves, daily.
-          </p>
-        </div>
       </div>
     </div>
   </div>

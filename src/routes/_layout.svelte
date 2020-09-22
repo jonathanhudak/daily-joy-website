@@ -21,7 +21,7 @@
   </script>
   <script
     src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
-    data-api-key="NTcyNGUzNmEtODgzNC00YjExLTgzZWQtM2E1Y2M4NWM2NDYwNjM3Mjk5NTEzNjAzMTMyMjA0"
+    data-api-key="ZWVjYWM0NDUtMzVkNS00OTY0LTgzYTItYmQ4MDQwZDRjMGQzNjM3MzYyMzE4ODM4MDc2OTY1"
     id="snipcart">
 
   </script>

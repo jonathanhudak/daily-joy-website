@@ -29,15 +29,6 @@
     }
   }
 
-  .ToggleList {
-    border-top: 1px solid var(--grey);
-  }
-
-  .ToggleList-row {
-    border-bottom: 1px solid var(--grey);
-    padding-top: 1rem;
-  }
-
   .movement-bg {
     fill: #f3adba;
   }
@@ -87,7 +78,7 @@
 </style>
 
 <script>
-  import ToggleSection from "../ToggleSection.svelte";
+  import Ingredients from "./Ingredients.svelte";
 </script>
 
 <section class="max-width-section mx-auto ProductBenefits py4 px1">
@@ -133,10 +124,11 @@
     </div>
 
     <p class="line-height-4 lead">
-      Gut & Skin Health
+      Microbiome & Immune System
       <br />
-      The gut microbiome, inflammation starts in the gut, gut-skin axis, glowing
-      skin.
+      Restore and stabilize gut bacteria to maintain a balanced immune system. A
+      balanced gut absorbs more nutrients, heals digestive issues, supports
+      brain and skin health, and fights allergies and pathogens.
     </p>
 
     <div class="ProductBenefits-icon-container">
@@ -302,25 +294,6 @@
 
   </div>
 
-  <div class="ToggleList my4">
-    <div class="ToggleList-row">
-      <ToggleSection title="FAQ">
-        <section class="py2">
-          <h3>What are the ingredients?</h3>
-          <ul>
-            <li>Curcumin (Tetrahydrocurcumin)</li>
-            <li>Amla Fruit Extract</li>
-            <li>Boswellia Serrata Extract</li>
-            <li>Pterostilbene</li>
-            <li>Probiotic (Bacillus coagulans, MTCC 5856)</li>
-            <li>Organic Ginger Powder</li>
-            <li>Organic Lemon Juice Powder</li>
-            <li>Organic Papaya Juice Powder</li>
-            <li>Mango Juice Powder</li>
-          </ul>
-        </section>
-      </ToggleSection>
-    </div>
-  </div>
+  <Ingredients />
 
 </section>
