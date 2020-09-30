@@ -74,7 +74,7 @@
       <div class="portrait">
         <img src="images/testimonials/lily@2x.png" alt="jeremy" />
       </div>
-      <p class="caps font-alt">Lily HTMLAllCollection. 31</p>
+      <p class="caps font-alt">Lily H. 31</p>
       <p class="body-2">
         Who knew such a small sachet can be packed with so much power? I’m
         definitely a Daily Joy fan for life!
@@ -86,9 +86,11 @@
       </div>
       <p class="caps font-alt">Sean M. 33</p>
       <p class="body-2">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
+        Looking for a supplement that tastes good, treats your body well, and
+        eases your mind on whether you’ve received your extra dose of vitamins?
+        Easily mixed with most of our daily liquid consumables and if you’re
+        suffering from inflammation you’re on track for quick relief. Take it
+        anywhere! Highly recommended.
       </p>
     </div>
   </div>

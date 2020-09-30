@@ -55,7 +55,13 @@
 
   @media (min-width: 1280px) {
     .Hero-A {
-      background-size: 750 auto;
+      background-size: 750px auto;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .Hero-A {
+      background-size: 900px auto;
     }
   }
 

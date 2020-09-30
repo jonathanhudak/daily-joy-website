@@ -216,6 +216,14 @@
           Our story
         </a>
 
+        <a
+          aria-current="{segment === 'contact' ? 'page' : undefined}"
+          href="contact"
+          class="font-alt caps"
+        >
+          Contact
+        </a>
+
         <!-- <a href="#noop" class="snipcart-user-profile font-alt caps">
           User profile
         </a> -->

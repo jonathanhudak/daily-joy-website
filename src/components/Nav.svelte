@@ -22,7 +22,7 @@
 
   @media (min-width: 740px) {
     .MainNavigation {
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: repeat(4, auto);
     }
   }
 
@@ -117,6 +117,14 @@
         class="font-alt caps"
       >
         Our story
+      </a>
+
+      <a
+        aria-current="{segment === 'contact' ? 'page' : undefined}"
+        href="contact"
+        class="font-alt caps"
+      >
+        Contact
       </a>
 
       <ProfileLink />

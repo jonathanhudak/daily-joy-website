@@ -107,6 +107,14 @@
     },
     { path: "images/turmeric-gallery/stick-pack@2x.jpg", alt: "stick pack" },
     {
+      path: "images/turmeric-gallery/Side1_DailyJoyTurmericExtractLabel@2x.png",
+      alt: "turmeric extract box side 1",
+    },
+    {
+      path: "images/turmeric-gallery/Side2_suggested_use_DailyJoy@2x.png",
+      alt: "turmeric extract box side 2",
+    },
+    {
       path: "images/turmeric-gallery/glass-ingredients@2x.jpg",
       alt: "turmeric extract ingredients whole in a glass",
     },
@@ -142,6 +150,7 @@
       </Carousel>
       {#each images as image, i}
         <img
+          tabindex="0"
           class="imageThumbnail"
           class:activeSlideThumb="{currentSlide === i}"
           src="{image.path}"

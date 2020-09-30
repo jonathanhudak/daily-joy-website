@@ -37,7 +37,11 @@
       <strong class="h1">Meet Our Founders</strong>
       <div class="hero-content">
         <div>
-          <p class="mt0">
+          <p class="lead mt0">
+            Hi! We are Mike and Jenny, two long time friends with shared love
+            for health and wellness.
+          </p>
+          <p>
             We founded Daily Joy with the goal of bringing the most effective
             anti-inflammatory solutions to everyone. Our mission is to harness
             Ayurvedic wisdom for modern life with pure and simple formulas that
@@ -60,12 +64,7 @@
           </p>
         </div>
         <div>
-          <p class="lead mt0">
-            Hi! We are Mike and Jenny, two long time friends with shared love
-            for health and wellness.
-          </p>
-
-          <p>
+          <p class="mt0">
             Having spent most of our 20s dealing with high stress jobs and
             not-so-balanced personal lives, we had similar "aha' moments in our
             early 30s that made us realize we needed to change our habits and
@@ -109,11 +108,7 @@
     <div>
       <h2 class="font-alt sm-caps caps">Behind The Scenes</h2>
       <strong class="h1 caps">It takes guts</strong>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat. Read more
-      </p>
+      <p>We care about quality every step of the way!</p>
     </div>
   </div>
 </ColorBlobs>

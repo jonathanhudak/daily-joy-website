@@ -23,36 +23,49 @@
   <p>
     Phytonutrients have been optimizing human health for centuries.
     Bio-protective, plant-based nutrients balance inflammation to support
-    natural resilience. We sustainably source 100% natural ingredients and
-    formulate them for bio-effective, bio-available support.
+    natural resilience without the side effects that pharmaceuticals often have.
+    We sustainably source 100% natural ingredients and formulate them for
+    powerful bio-effective, bio-available support in the form of a
+    nutraceutical.
   </p>
 
   <div class="ToggleList">
     <div class="ToggleList-row">
-      <ToggleSection title="Curcumin">
+      <ToggleSection title="Curcumin (tetrahydrocurcumin)">
         <div class="py2">
           <p>
-            Found in turmeric, curcumin balances inflammation with powerful
-            antioxidant and anti-microbial properties. Curcumin offers natural
-            prevention and support for chronic and age-related challenges
-            including cognition and mood, organs and tissues, movement and
-            recovery, and metabolism and energy. Our 100% natural
-            tetrahydrocurcumin is colorless, water-soluble, and concentrated for
-            3x more bioavailable support.
+            Turmeric’s most pharmacologically bio-active metabolite is
+            <strong>tetrahydrocurcumin</strong>
+            and does not require additives to enhance bioavailability. This
+            pre-converted form of curcumin is easily absorbed by the body’s
+            gastrointestinal tract and is 3X more powerful than standard
+            curcumin extract allowing you to feel its powerful benefits in a
+            smaller dose in a shorter amount of time.
+          </p>
+          <p>
+            Our 100% natural turmeric extract offers natural prevention and
+            support for chronic and age-related challenges including cognition
+            and mood, organs and tissues, movement and recovery, and metabolism
+            and energy. Balance your inflammation with powerful antioxidant and
+            anti-microbial properties without staining your shirt!
           </p>
         </div>
       </ToggleSection>
     </div>
     <div class="ToggleList-row">
-      <ToggleSection title="Amla Berry">
+      <ToggleSection title="Probiotic: Bacillus Coagulans MTCC5856">
         <div class="py2">
           <p>
-            The Indian Gooseberry, or Amla Berry plant, delivers adaptogens that
-            support natural resilience, helping the body rejuvenate in the face
-            of stress, trauma, anxiety, and fatigue. Used for more than 5,000
-            years and renowned as the highest antioxidant food in the world,
-            Amla Berry aids digestion, helps regulate blood sugar levels, and
-            supports healthy liver function.
+            This natural probiotic enzyme improves gut microflora and aids
+            digestion so you can absorb the most out of our formula’s
+            phytonutrients. Producing good lactic acid, Bacillus Coagulans
+            MTCC5856 slows yeast and parasite growth in the digestive tract, and
+            prevents the growth of harmful microorganisms that contribute to
+            diarrhea, constipation, or dyspepsia. Bacillus Coagulans MTCC5856
+            survives high and low temperatures and shows resistance to the human
+            gut. Many other probiotics do not survive manufacturing,
+            transportation, and storage; if they do, some do not survive the
+            harsh human gastric environment.
           </p>
         </div>
       </ToggleSection>
@@ -63,9 +76,27 @@
           <p>
             Extracted from the barks and resins of Indian flowering trees, this
             phytonutrient turns off the immune system responses that increase
-            inflammation, swelling, and pain in the body. This 100% natural
-            extract is so powerful, it is considered comparable to chemical
-            anti-inflammatory pain relievers.
+            inflammation, swelling, and pain in the body by inhibiting the
+            enzyme responsible for inflammation. Boswellia has shown to be
+            effective against a large number of inflammatory diseases such as
+            arthritis, bronchial asthma, chronic colitis, ulcerative colitis,
+            and Crohn’s disease. This 100% natural extract is so powerful, it is
+            considered comparable to chemical anti-inflammatory pain relievers.
+          </p>
+        </div>
+      </ToggleSection>
+    </div>
+    <div class="ToggleList-row">
+      <ToggleSection title="Amla Berry">
+        <div class="py2">
+          <p>
+            The Indian gooseberry delivers adaptogens that support natural
+            resilience, helping the body rejuvenate in the face of stress,
+            trauma, anxiety, and fatigue. Used for more than 5,000 years, amla
+            berries are known as one of the highest antioxidant foods with an
+            ORAC value at 55X more than blueberries. Amla Berry aids digestion,
+            helps regulate blood sugar levels, and supports healthy liver
+            function.
           </p>
         </div>
       </ToggleSection>
@@ -74,24 +105,11 @@
       <ToggleSection title="Pterostilbene">
         <div class="py2">
           <p>
-            This natural phytonutrient (from Pterocarpus Marsupium) may be
-            better absorbed by the body than resveratrol. Pterostilbene supports
-            cardiovascular health, helps regulate blood sugar levels, protects
-            liver cells from oxidative stress, and supports healthy cognitive
-            function.
-          </p>
-        </div>
-      </ToggleSection>
-    </div>
-    <div class="ToggleList-row">
-      <ToggleSection title="Lactospore Probiotic">
-        <div class="py2">
-          <p>
-            This natural probiotic enzyme improves gut microflora and aids
-            digestion. Producing good lactic acid, Lactospore slows yeast and
-            parasite growth in the digestive tract, and prevents the growth of
-            harmful microorganisms that contribute to diarrhea, constipation, or
-            dyspepsia.
+            Pterostilbene (from Pterocarpus Marsupium), another powerful
+            antioxidant, supports cardiovascular health, can help regulate blood
+            sugar levels, protects liver cells from oxidative stress and
+            supports healthy cognitive function. This natural phytonutrient may
+            be better absorbed by the body than resveratrol.
           </p>
         </div>
       </ToggleSection>

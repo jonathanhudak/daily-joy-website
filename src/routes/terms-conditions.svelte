@@ -1,4 +1,4 @@
-<div class="max-width-section px2 py4">
+<div class="max-width-section px2 py4 mx-auto">
   <h1>Terms &#038; Conditions</h1>
   <p>
     <strong>

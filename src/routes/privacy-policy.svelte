@@ -1,4 +1,4 @@
-<div class="max-width-section px2 py4">
+<div class="max-width-section px2 py4 mx-auto">
 
   <h1>Privacy Policy</h1>
   <h2>Who we are</h2>
