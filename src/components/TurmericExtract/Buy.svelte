@@ -169,7 +169,7 @@
       <p class="color-orange lead">
         <strong class="regular">Subscription: $49</strong>
         <br />
-        <strong class="regular">One time order: $65</strong>
+        <strong class="regular">One time order: $58</strong>
       </p>
       <p class="line-height-4 lead">
         Each box contains 30 stick packs. Daily Joy’s powerful curcumin extract
@@ -200,7 +200,7 @@
           <button
             class="snipcart-add-item single-purchase"
             data-item-id="turmeric-extract"
-            data-item-price="65.00"
+            data-item-price="58.00"
             data-item-quantity="{quantity}"
             data-item-url="/products"
             data-item-shippable="true"

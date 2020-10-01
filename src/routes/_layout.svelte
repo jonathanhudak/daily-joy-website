@@ -25,12 +25,6 @@
     id="snipcart">
 
   </script>
-  <link
-    href="http://localhost:3006/themes/base/snipcart.css"
-    rel="stylesheet"
-    type="text/css"
-  />
-
   {#if process.env.NODE_ENV === 'development'}
     <link
       href="http://localhost:3006/themes/base/snipcart.css"

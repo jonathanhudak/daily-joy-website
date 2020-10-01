@@ -63,7 +63,7 @@
       <div class="portrait">
         <img src="images/testimonials/erik@2x.png" alt="gwyneth" />
       </div>
-      <p class="caps font-alt">Erik M.</p>
+      <p class="caps font-alt">Erik M. 32</p>
       <p class="body-2">
         Daily Joy gives you the feeling of feeling bright, and energetic inside.
         Starting the day with a warm glass of ginger and turmeric is now an
@@ -74,7 +74,7 @@
       <div class="portrait">
         <img src="images/testimonials/lily@2x.png" alt="jeremy" />
       </div>
-      <p class="caps font-alt">Lily H. 31</p>
+      <p class="caps font-alt">Lilly H. 31</p>
       <p class="body-2">
         Who knew such a small sachet can be packed with so much power? I’m
         definitely a Daily Joy fan for life!

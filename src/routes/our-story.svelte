@@ -34,13 +34,13 @@
   <div>
     <div>
       <h1 class="font-alt sm-caps caps">Our story</h1>
-      <strong class="h1">Meet Our Founders</strong>
+      <!-- <strong class="h1">Meet Our Founders</strong> -->
       <div class="hero-content">
         <div>
-          <p class="lead mt0">
+          <!-- <p class="lead mt0">
             Hi! We are Mike and Jenny, two long time friends with shared love
             for health and wellness.
-          </p>
+          </p> -->
           <p>
             We founded Daily Joy with the goal of bringing the most effective
             anti-inflammatory solutions to everyone. Our mission is to harness
@@ -64,7 +64,7 @@
           </p>
         </div>
         <div>
-          <p class="mt0">
+          <!-- <p class="mt0">
             Having spent most of our 20s dealing with high stress jobs and
             not-so-balanced personal lives, we had similar "aha' moments in our
             early 30s that made us realize we needed to change our habits and
@@ -89,7 +89,7 @@
           <p>
             Neither of us could find that magical unicorn product. We decided to
             make it ourselves.
-          </p>
+          </p> -->
 
         </div>
 
