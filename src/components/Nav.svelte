@@ -22,7 +22,7 @@
 
   @media (min-width: 740px) {
     .MainNavigation {
-      grid-template-columns: repeat(4, auto);
+      grid-template-columns: repeat(5, auto);
     }
   }
 
@@ -126,6 +126,8 @@
       >
         Contact
       </a>
+
+      <a href="#cart" class="snipcart-checkout font-alt caps">My cart</a>
 
       <ProfileLink />
 

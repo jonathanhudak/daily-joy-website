@@ -227,6 +227,8 @@
         <!-- <a href="#noop" class="snipcart-user-profile font-alt caps">
           User profile
         </a> -->
+        <a href="#cart" class="snipcart-checkout font-alt caps">My cart</a>
+
         <ProfileLink />
 
         <a href="#noop" class="snipcart-user-logout font-alt caps">Logout</a>

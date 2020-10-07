@@ -17,6 +17,7 @@
     "sirv": "^0.4.0"
   },
   "devDependencies": {
+    "@beyonk/gdpr-cookie-consent-banner": "^7.0.1",
     "@beyonk/svelte-carousel": "^2.8.0",
     "carbon-components-svelte": "^0.7.4",
     "cypress": "^4.12.1",

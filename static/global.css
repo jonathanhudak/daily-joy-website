@@ -1312,3 +1312,16 @@ main {
   background: var(--white);
   color: var(--orange);
 }
+
+.cookieConsent__Right button:first-of-type {
+  display: none;
+}
+
+.cookieConsentWrapper {
+  background: var(--orange) !important;
+}
+
+.cookieConsent {
+  max-width: var(--max-content-width);
+  margin: auto;
+}

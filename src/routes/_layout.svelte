@@ -7,11 +7,18 @@
 
 <script>
   export let segment;
+  import { onMount } from "svelte";
   import Nav from "../components/Nav.svelte";
   import Footer from "../components/Footer.svelte";
+  import GdprBanner from "@beyonk/gdpr-cookie-consent-banner";
 </script>
 
 <svelte:head>
+
+  <link
+    rel="stylesheet"
+    href="//unpkg.com/@beyonk/gdpr-cookie-consent-banner/dist/style.css"
+  />
 
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -47,4 +54,9 @@
   <slot />
 </main>
 
+<GdprBanner
+  cookieName="daily-joy-cookies"
+  categories="{{}}"
+  showEditIcon="{false}"
+/>
 <Footer segment="{segment}" />
