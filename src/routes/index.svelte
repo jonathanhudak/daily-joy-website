@@ -22,7 +22,7 @@
   }
   @media (min-width: 1000px) {
     .Hero {
-      max-height: 900px;
+      max-height: 830px;
     }
   }
 
@@ -337,7 +337,7 @@
     </svg>
   </div>
 </div>
-<div class="bg-beige py3">
+<div class="bg-beige pb3">
   <MixYourMagic />
   <StayBalanced />
   <NewRitual />

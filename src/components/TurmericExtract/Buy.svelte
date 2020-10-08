@@ -86,6 +86,22 @@
     max-width: 300px;
     text-align: center;
   }
+
+  .br-dots {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 150px;
+  }
+
+  @media (min-width: 1000px) {
+    .br-dots {
+      position: absolute;
+      bottom: -30px;
+      right: -200px;
+      width: 250px;
+    }
+  }
 </style>
 
 <script>
@@ -130,12 +146,30 @@
   }
 </script>
 
-<section class="bg-white overflow-x-hidden">
+<section class="bg-white overflow-x-hidden relative">
 
   <div id="product"></div>
   <div id="product-subscription"></div>
 
   <div class="ProductDetails max-width-section mx-auto relative">
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 83.74 90.74"
+      class="br-dots"
+    >
+      <g transform="translate(-1821 -1939.885)">
+        <path
+          fill="#f1ede4"
+          d="M1837.331,2030.625s5.793-1.4,7-2.767,2.792-1.635,3.869-5.6,2.727-6.216,1.048-10.867-2.4-8.086-5.93-10.589-8.385-3.95-11.021-3.794-6.039,2.387-6.039,2.387-5.692,3.667-5.232,8.445.057,7.773,3.379,13.369S1835.182,2030.057,1837.331,2030.625Z"
+        ></path>
+        <path
+          fill="#f1ede4"
+          d="M1901.028,1947.6a7.72,7.72,0,0,0,1.946-.769,2.8,2.8,0,0,0,1.151-1.369c.364-.939.852-1.49.483-2.536s-.5-1.829-1.412-2.344a5.577,5.577,0,0,0-2.915-.677,5.412,5.412,0,0,0-1.679.663s-1.609.954-1.572,2.053a4.631,4.631,0,0,0,.67,3.035A5.713,5.713,0,0,0,1901.028,1947.6Z"
+        ></path>
+      </g>
+    </svg>
+
     <div class="ImageGallery">
       <Carousel
         perPage="{1}"
@@ -234,5 +268,7 @@
         transform="translate(-940.522 -2026.535)"
       ></path>
     </svg>
+
   </div>
+
 </section>

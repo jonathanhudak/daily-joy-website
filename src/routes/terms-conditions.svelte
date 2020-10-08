@@ -228,7 +228,7 @@
     Questions regarding our Conditions of Usage, Privacy Policy, or other policy
     related material can be directed to our support staff by clicking on the
     &#8220;Contact Us&#8221; link in the side menu. Or you can email us at:
-    boom.boom@dailyjoy.health
+    hello@dailyjoy.health
   </p>
 
 </div>

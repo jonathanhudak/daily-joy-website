@@ -38,7 +38,7 @@
   }
 </style>
 
-<section class="bg-orange color-white">
+<section class="bg-orange color-white relative">
   <div class="ProductQualities max-width-section mx-auto">
     <div class="ProductQualities-item">
       <svg

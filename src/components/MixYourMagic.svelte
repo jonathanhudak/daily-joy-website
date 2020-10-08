@@ -36,8 +36,11 @@
     .Story-Section-A {
       background-size: cover;
       background-position: center;
-      padding-top: 4rem;
       padding-bottom: 20rem;
+    }
+
+    .image {
+      transform: translateY(-15%);
     }
   }
 
