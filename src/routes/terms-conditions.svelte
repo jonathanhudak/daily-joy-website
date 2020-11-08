@@ -182,7 +182,7 @@
       <br />
     </strong>
     By visiting Daily Joy, SPC, you agree that the laws of the state of
-    DEFINE_STATE, DEFINE_COUNTRY, without regard to principles of conflict of
+    Washington, USA, without regard to principles of conflict of
     laws, will govern these Conditions of Use and any dispute of any sort that
     might arise between you and Daily Joy, SPC or its associates.
   </p>
@@ -192,11 +192,11 @@
     <br />
     Any dispute relating in any way to your visit to Daily Joy, SPC or to
     products you purchase through Daily Joy, SPC shall be submitted to
-    confidential arbitration in DEFINE_STATE, DEFINE_COUNTRY, except that, to
+    confidential arbitration in Washington, USA, except that, to
     the extent you have in any manner violated or threatened to violate Daily
     Joy, SPCs intellectual property rights, Daily Joy, SPC may seek injunctive
     or other appropriate relief in any state or federal court in the state of
-    DEFINE_STATE, DEFINE_COUNTRY, and you consent to exclusive jurisdiction and
+    Washington, USA, and you consent to exclusive jurisdiction and
     venue in such courts. Arbitration under this agreement shall be conducted
     under the rules then prevailing of the American Arbitration Association. The
     arbitrators award shall be binding and may be entered as a judgment in any

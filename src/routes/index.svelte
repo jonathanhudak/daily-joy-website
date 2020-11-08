@@ -20,11 +20,6 @@
     overflow: visible;
     margin: auto;
   }
-  @media (min-width: 1000px) {
-    .Hero {
-      max-height: 830px;
-    }
-  }
 
   .Hero-A {
     margin-top: 10vh;
@@ -61,7 +56,7 @@
 
   @media (min-width: 1600px) {
     .Hero-A {
-      background-size: 900px auto;
+      background-size: 800px auto;
     }
   }
 

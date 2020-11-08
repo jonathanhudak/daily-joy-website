@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
-    "export": "sapper export",
+    "export": "sapper export --entry \"error\"",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "test": "run-p --race dev cy:run",
+    "predeploy": "npm run export",
+    "deploy": "aws s3 sync ./__sapper__/export s3://dailyjoy.health --profile daily-joy --acl public-read"
   },
   "dependencies": {
     "compression": "^1.7.1",
